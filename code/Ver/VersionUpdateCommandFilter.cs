@@ -31,6 +31,7 @@ namespace Ver
             var versionUpdateModel = new VersionUpdateModel();
 
             // Extract the version update value, e.g. 0.1
+            // TODO: Use observer (event) based trigger to notify information capture.
             filteredArgs = FilterArgs(filteredArgs, arg =>
             {
                 if (arg.StartsWith("+") || arg.StartsWith("-"))

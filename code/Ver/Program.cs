@@ -14,6 +14,13 @@
     /// 
     /// > ver +0.1
     /// 
+    /// Using an abbreviation to specify the version component to update:
+    /// Major (M), Minor (m), Build (b), Revision (r)
+    /// 
+    /// e.g.  [assembly: AssemblyVersion("1.8.5.23")] => [assembly: AssemblyVersion("1.9.0.0")]
+    ///
+    /// > ver +1m
+    /// 
     /// Increase the lowest ranking version number of AssemblyVersion by 1.
     /// e.g. [assembly: AssemblyVersion("1.0.0.0")] => [assembly: AssemblyVersion("1.0.0.1")]
     /// 
